@@ -1,0 +1,32 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": ["--platform=linux/amd64" ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rangav.vscode-thunder-client",
+                "ms-azuretools.vscode-docker",
+                "dbaeumer.vscode-eslint",
+                "dotenv.dotenv-vscode",
+                "vscode-icons-team.vscode-icons",
+                "esbenp.prettier-vscode",
+                "sourcegraph.cody-ai",
+                "kamikillerto.vscode-colorize",
+                "Vue.volar",
+                "Nuxtr.nuxtr-vscode",
+                "ritwickdey.LiveServer",
+                "christian-kohler.path-intellisense",
+                "bradlc.vscode-tailwindcss",
+                "oderwat.indent-rainbow",
+                "chrmarti.regex",
+                "jock.svg",
+                "asvetliakov.vscode-neovim"
+            ]
+        }
+    },
+    "forwardPorts": [
+        3000
+    ]
+}
