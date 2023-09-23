@@ -1,8 +1,11 @@
 {
-  "name": "nuxt-app",
-  "private": true,
-  "type": "module",
+  "name": "guptarahul.tech",
+  "version": "1.0.0",
+  "description": "Personal website made with Nuxt.js, TailwindCSS and DaisyUI",
+  "productName": "Personal Website",
+  "author": "Rahul Gupta <techsavvyrahul@hotmail.com>",
   "scripts": {
+    "lint": "eslint --ext .js,.vue ./ --fix",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -10,7 +13,36 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "nuxt": "^3.7.3"
-  }
+    "@babel/eslint-parser": "^7.13.14",
+    "@nuxt/devtools": "^0.6.4",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@tailwindcss/container-queries": "^0.1.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "eslint": "^8.29.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "eslint-webpack-plugin": "^3.1.1",
+    "nuxt": "^3.6.2",
+    "nuxt-headlessui": "^1.1.1"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.4.0",
+    "daisyui": "^3.2.1",
+    "date-fns": "^2.30.0",
+    "postcss-custom-properties": "^13.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechSpecter/guptarahul.tech.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TechSpecter/guptarahul.tech/issues"
+  },
+  "homepage": "https://github.com/TechSpecter/guptarahul.tech#readme"
 }

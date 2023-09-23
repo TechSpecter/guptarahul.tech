@@ -21,8 +21,7 @@
                 "bradlc.vscode-tailwindcss",
                 "oderwat.indent-rainbow",
                 "chrmarti.regex",
-                "jock.svg",
-                "asvetliakov.vscode-neovim"
+                "jock.svg"
             ]
         }
     },
