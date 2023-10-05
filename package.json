@@ -26,7 +26,8 @@
     "eslint-plugin-vue": "^9.0.0",
     "eslint-webpack-plugin": "^3.1.1",
     "nuxt": "^3.6.2",
-    "nuxt-headlessui": "^1.1.1"
+    "nuxt-headlessui": "^1.1.1",
+    "nuxt-gtag": "^0.5.7"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.9",

@@ -8,7 +8,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     'nuxt-headlessui',
+    'nuxt-gtag'
   ],
+
+  gtag: {
+    id: 'G-107XNLEL1T',
+  },
 
   // nitro: {
   //   preset: 'firebase',
