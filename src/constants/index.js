@@ -22,7 +22,7 @@ export const SOCIAL_LINKS = [
   {
     icon: 'lab la-twitter',
     name: 'twitter',
-    url: 'https://twitter.com/TechInformerX',
+    url: 'https://twitter.com/guptar_',
   }
 ];
 
