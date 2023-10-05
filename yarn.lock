@@ -955,6 +955,30 @@
     unimport "^3.3.0"
     untyped "^1.4.0"
 
+"@nuxt/kit@^3.6.5":
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.7.4.tgz#31c0bd57397cc56a1098af5d6504353cc2e855a2"
+  integrity sha512-/S5abZL62BITCvC/TY3KWA6N721U1Osln3cQdBb56XHIeafZCBVqTi92Xb0o7ovl72mMRhrKwRu7elzvz9oT/g==
+  dependencies:
+    "@nuxt/schema" "3.7.4"
+    c12 "^1.4.2"
+    consola "^3.2.3"
+    defu "^6.1.2"
+    globby "^13.2.2"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.20.0"
+    knitwork "^1.0.0"
+    mlly "^1.4.2"
+    pathe "^1.1.1"
+    pkg-types "^1.0.3"
+    scule "^1.0.0"
+    semver "^7.5.4"
+    ufo "^1.3.0"
+    unctx "^2.3.1"
+    unimport "^3.3.0"
+    untyped "^1.4.0"
+
 "@nuxt/postcss8@^1.1.3":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nuxt/postcss8/-/postcss8-1.1.3.tgz#a7f8f6f2a664430bbdd3b175498eb693e0b1b351"
@@ -975,6 +999,23 @@
   integrity sha512-Uqe3Z9RnAROzv5owQo//PztD9d4csKK6ulwQO1hIAinCh34X7z2zrv9lhm14hlRYU1n7ISEi4S7UeHgL/r8d8A==
   dependencies:
     "@nuxt/ui-templates" "^1.3.1"
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.1"
+    pkg-types "^1.0.3"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.4.3"
+    ufo "^1.3.0"
+    unimport "^3.3.0"
+    untyped "^1.4.0"
+
+"@nuxt/schema@3.7.4":
+  version "3.7.4"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.7.4.tgz#8d01aa9d1891d0662e66a48724e177731ce1388d"
+  integrity sha512-q6js+97vDha4Fa2x2kDVEuokJr+CGIh1TY2wZp2PLZ7NhG3XEeib7x9Hq8XE8B6pD0GKBRy3eRPPOY69gekBCw==
+  dependencies:
+    "@nuxt/ui-templates" "^1.3.1"
+    consola "^3.2.3"
     defu "^6.1.2"
     hookable "^5.5.3"
     pathe "^1.1.1"
@@ -5557,6 +5598,15 @@ nuxi@^3.8.3:
   optionalDependencies:
     fsevents "~2.3.3"
 
+nuxt-gtag@^0.5.7:
+  version "0.5.9"
+  resolved "https://registry.yarnpkg.com/nuxt-gtag/-/nuxt-gtag-0.5.9.tgz#f1d094647815c72f024b58aa2a0ee9dc709548be"
+  integrity sha512-rT6HaGzECmIAbc4fyyl0KzQWd8YwMoNBbXcSTYCwZ5WEZiPGViBicz8NP5j8Olgj6JLqD1EZiGEfAVyFNGNhuA==
+  dependencies:
+    "@nuxt/kit" "^3.6.5"
+    defu "^6.1.2"
+    pathe "^1.1.1"
+
 nuxt-headlessui@^1.1.1:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/nuxt-headlessui/-/nuxt-headlessui-1.1.4.tgz#05fba6a7c5e333d1bc8f0c0af4f65954080072de"
@@ -7940,6 +7990,7 @@ widest-line@^4.0.1:
     string-width "^5.0.1"
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0", wrap-ansi@^7.0.0:
+  name wrap-ansi-cjs
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/wrap-ansi/-/wrap-ansi-7.0.0.tgz#67e145cff510a6a6984bdf1152911d69d2eb9e43"
   integrity sha512-YVGIj2kamLSTxw6NsZjoBxfSwsn0ycdesmc4p+Q21c5zPuZ1pl+NfxVdxPtdHvmNVOQ6XSYG4AUtyt/Fi7D16Q==
