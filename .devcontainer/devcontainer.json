@@ -55,7 +55,12 @@
         "hediet.vscode-drawio",
         "timonwong.shellcheck",
         "eamodio.gitlens",
-        "Wattenberger.footsteps"
+        "Wattenberger.footsteps",
+        "Vue.volar",
+        "Nuxtr.nuxtr-vscode",
+        "rangav.vscode-thunder-client",
+        "sourcegraph.cody-ai",
+        "bradlc.vscode-tailwindcss"
       ]
     }
   },
