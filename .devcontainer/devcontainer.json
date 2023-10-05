@@ -1,31 +1,65 @@
 {
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "runArgs": ["--platform=linux/amd64" ],
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "rangav.vscode-thunder-client",
-                "ms-azuretools.vscode-docker",
-                "dbaeumer.vscode-eslint",
-                "dotenv.dotenv-vscode",
-                "vscode-icons-team.vscode-icons",
-                "esbenp.prettier-vscode",
-                "sourcegraph.cody-ai",
-                "kamikillerto.vscode-colorize",
-                "Vue.volar",
-                "Nuxtr.nuxtr-vscode",
-                "ritwickdey.LiveServer",
-                "christian-kohler.path-intellisense",
-                "bradlc.vscode-tailwindcss",
-                "oderwat.indent-rainbow",
-                "chrmarti.regex",
-                "jock.svg"
-            ]
-        }
-    },
-    "forwardPorts": [
-        3000
-    ]
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "name": "DevContainer",
+  "runArgs": [
+    "--name=VSCode-devcontainer",
+    "--platform=linux/amd64"
+  ],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "editor.tabSize": 4,
+        "editor.fontSize": 18,
+        "terminal.integrated.fontSize": 14,
+        "editor.formatOnSave": true,
+        "editor.minimap.enabled": false,
+        "terminal.integrated.profiles.linux": {
+          "tmux": {
+            "path": "/usr/local/bin/tmux"
+          },
+          "bash": {
+            "path": "/usr/bin/bash"
+          },
+          "zsh": {
+            "path": "/usr/bin/zsh"
+          }
+        },
+        "terminal.integrated.cursorBlinking": true,
+        "terminal.integrated.rightClickCopyPaste": true,
+        "terminal.integrated.fontFamily": "MesloLGS NF",
+        "terminal.integrated.shell.osx": "/usr/bin/zsh",
+        "terminal.integrated.shell.linux": "zsh",
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      },
+      "extensions": [
+        "stylelint.vscode-stylelint",
+        "rangav.vscode-thunder-client",
+        "ms-azuretools.vscode-docker",
+        "dbaeumer.vscode-eslint",
+        "dotenv.dotenv-vscode",
+        "vscode-icons-team.vscode-icons",
+        "esbenp.prettier-vscode",
+        "kamikillerto.vscode-colorize",
+        "ritwickdey.LiveServer",
+        "christian-kohler.path-intellisense",
+        "oderwat.indent-rainbow",
+        "chrmarti.regex",
+        "jock.svg",
+        "wix.vscode-import-cost",
+        "johnpapa.vscode-peacock",
+        "yzhang.markdown-all-in-one",
+        "xabikos.JavaScriptSnippets",
+        "mitchdenny.ecdc",
+        "hediet.vscode-drawio",
+        "timonwong.shellcheck",
+        "eamodio.gitlens",
+        "Wattenberger.footsteps"
+      ]
+    }
+  },
+  "forwardPorts": [
+    3000
+  ]
 }
