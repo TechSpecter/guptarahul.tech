@@ -41,7 +41,7 @@ export default defineNuxtConfig({
         {
           rel: "icon",
           type: "image/x-icon",
-          href: "~/assets/favicon.ico",
+          href: "https://raw.githubusercontent.com/TechSpecter/guptarahul.tech/main/src/assets/favicon.ico",
         },
       ],
     },
